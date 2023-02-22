@@ -7,3 +7,6 @@ The usefull Installations for this code to be run are :
 install python
 install pip
 pip install scrapy
+
+
+When the code will run Data.csv file will generate which will have extracted data.
