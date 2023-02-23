@@ -8,7 +8,7 @@ This repository is created for the assessment I have done for the interview proc
 install python
 ```
 ```bash
-install pip
+python get-pip.py
 ```
 ```bash
 pip install scrapy
