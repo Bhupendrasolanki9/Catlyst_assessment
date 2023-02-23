@@ -7,10 +7,10 @@ This repository is created for the assessment I have done for the interview proc
 ```bash
 install python
 ```
-```bash
+```python
 python get-pip.py
 ```
-```bash
+```python
 pip install scrapy
 ```
 
