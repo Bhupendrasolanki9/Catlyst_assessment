@@ -5,7 +5,10 @@ class SchoolSpider(scrapy.Spider):
     name = 'school'
     allowed_domains = ['isd110.org']
     start_urls = ['https://isd110.org/our-schools/laketown-elementary/staff-directory']
-    
+    custom_settings = {
+        'FEED_FORMAT': 'csv',
+        'FEED_URI': 'isd_data.csv'
+    }
     
     def init_request(self,response):
         
