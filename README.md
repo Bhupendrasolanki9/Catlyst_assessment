@@ -17,7 +17,7 @@ pip install scrapy
 ## Run Command
 
 ```python
- scrapy runspider school.py -o Data.csv
+ scrapy runspider school.py
  ```
  
 
